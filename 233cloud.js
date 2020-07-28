@@ -1,6 +1,6 @@
 /*
 
-登陆链接：https://glados.rocks/，登陆即可获取Cookie。
+登陆链接：https://233cloud.org/，登陆即可获取Cookie。
 
 [rewrite_local]
 https:\/\/233cloud\.org\/api\/user\/status url script-request-header https://github.com/evilbutcher/Quantumult_X/raw/master/check_in/glados/glados.js
