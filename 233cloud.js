@@ -3,10 +3,10 @@
 登陆链接：https://233cloud.org/，登陆即可获取Cookie。
 
 [rewrite_local]
-https:\/\/233cloud\.org\/api\/user\/status url script-request-header https://github.com/evilbutcher/Quantumult_X/raw/master/check_in/glados/glados.js
+https:\/\/233cloud\.org\/api\/user\/status url script-request-header https://raw.githubusercontent.com/StarStar-Lab/Script/master/233cloud.js
 
 [task_local]
-1 0 * * * https://github.com/evilbutcher/Quantumult_X/raw/master/check_in/glados/glados.js
+1 0 * * * https://raw.githubusercontent.com/StarStar-Lab/Script/master/233cloud.js
 
 hostname = 233cloud.org
 */
