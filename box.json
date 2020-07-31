@@ -1,0 +1,41 @@
+{
+  "id": "StarStar-Lab.app.sub",
+  "name": "test",
+  "author": "StarStar-Lab",
+  "icon": "https://avatars2.githubusercontent.com/u/35412541?s=400&v=4",
+  "repo": "https://github.com/StarStar-Lab/scripts",
+  "apps": [
+     {
+      "id": "AppMonitor",
+      "name": "App价格版本监控",
+      "keys": [],
+      "settings": [
+        {
+          "id": "@apps",
+          "name": "app跟踪id",
+          "val": " ",
+          "type": "textarea",
+         	"placeholder": "VCIvwk2g,1SyedSId",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "app跟踪id"
+        },
+        {
+          "id": "@reg",
+          "name": "默认区域",
+          "val": "",
+          "type": "text",
+         	"placeholder": "us",
+          "desc": "默认区域：美国us 中国cn 香港hk"
+        }
+      ],
+      "author": "@Neurogram-R",
+      "repo": "https://github.com/Neurogram-R/Surge",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/AppStore.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/AppStore.png"
+      ],
+      "script": "https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js"
+    }
+  ]
+}
