@@ -29,7 +29,6 @@ app可单独设置区域，未单独设置区域，则采用reg默认区域
 以上方式均可 分隔符支持 空格/:|_-
 */
 console.log("APP监控运行");
-for (var i in accounts) {
 let apps=appid;//app跟踪id
 let reg=area;//默认区域：美国us 中国cn 香港hk
 let notifys=[];
@@ -72,7 +71,7 @@ function format_apps(x) {
     if(Object.keys(apps_f).length>0){
         post_data(apps_f);
     }
-}}
+}
 async function post_data(d) {
     try{
         let app_monitor=$prefs.valueForKey("app_monitor");
