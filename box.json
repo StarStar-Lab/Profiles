@@ -7,23 +7,23 @@
   "apps": [
      {
       "id": "AppMonitor",
-      "name": "App价格版本监控",
-      "keys": [],
+      "name": "App版本及价格监控",
+      "keys": ["getAppID","getRegion"],
       "settings": [
         {
-          "id": "@apps",
+          "id": "getAppID",
           "name": "app跟踪id",
           "val": " ",
           "type": "textarea",
-         	"placeholder": "VCIvwk2g,1SyedSId",
+         	"placeholder": "app可单独设置区域，未单独设置区域，则采用reg默认区域, ["1443988620:hk","1443988620/us","1443988620-uk","1443988620_jp","1443988620 au"]",
           "autoGrow": true,
-          "rows": 1,
+          "rows": 5,
           "desc": "app跟踪id"
         },
         {
-          "id": "@reg",
+          "id": "getRegion",
           "name": "默认区域",
-          "val": "",
+          "val": " ",
           "type": "text",
          	"placeholder": "us",
           "desc": "默认区域：美国us 中国cn 香港hk"
@@ -35,7 +35,7 @@
         "https://raw.githubusercontent.com/Orz-3/mini/master/AppStore.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/AppStore.png"
       ],
-      "script": "https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js"
+      "script": "https://raw.githubusercontent.com/StarStar-Lab/Scripts/master/AppMonitor.js"
     }
   ]
 }
