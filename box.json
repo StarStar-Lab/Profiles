@@ -21,9 +21,8 @@
         {
           "id": "getRegion",
           "name": "默认区域",
-          "val": " ",
+          "val": "us",
           "type": "text",
-         	"placeholder": "us",
           "desc": "默认区域：美国us 中国cn 香港hk"
         }
       ],
