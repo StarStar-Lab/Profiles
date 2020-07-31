@@ -1,37 +1,36 @@
 {
   "id": "StarStar-Lab.app.sub",
-  "name": "test",
+  "name": "应用",
   "author": "StarStar-Lab",
   "icon": "https://avatars2.githubusercontent.com/u/35412541?s=400&v=4",
   "repo": "https://github.com/StarStar-Lab/scripts",
   "apps": [
-     {
-      "id": "AppMonitor",
-      "name": "App版本及价格监控",
-      "keys": ["getAppID","getRegion"],
-      "settings": [
-        {
-          "id": "getAppID",
-          "name": "app跟踪id",
-          "val": " ",
-          "type": "textarea",
-          "desc": "app可单独设置区域，未单独设置区域，则采用reg默认区域\n设置区域方式apps=\n以上方式均可 分隔符支持 空格/:|_-"
-        },
-        {
-          "id": "getRegion",
-          "name": "默认区域",
-          "val": "us",
-          "type": "text",
-          "desc": "默认区域：美国us 中国cn 香港hk"
-        }
-      ],
-      "author": "@Neurogram-R",
-      "repo": "https://github.com/Neurogram-R/Surge",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/AppStore.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/AppStore.png"
-      ],
-      "script": "https://raw.githubusercontent.com/StarStar-Lab/Scripts/master/AppMonitor.js"
-    }
+    {
+      "id": "tenpay",
+      "name": "腾讯微证券",
+      "keys": ["wechat_finance_cookieKey"],
+      "author": "@baranwang",
+      "repo": "https://github.com/baranwang/quantumult-x-wechat-finance",
+      "icons": ["https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png", "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"]
+    },
+    {
+    "id": "checkin",
+    "name": "机场签到2",
+    "descs_html": [
+        "多个机场使用请用<font class=\"error--text\">中文逗号</font>分隔，顺序需要对应。",
+        "也可利用BoxJs<font class=\"error--text\">会话切换</font>功能，一次保存一个机场信息，切换会话签到。"
+    ],
+    "keys": ["star_checkintitle", "star_checkinlogin", "star_checkinemail", "star_checkinpwd"],
+    "settings": [
+      { "id": "star_checkintitle", "name": "标题", "val": "", "placeholder": "请填写，例如：隔壁西站", "type": "textarea", "desc": "请依次填入标题，以中文逗号分隔" },
+      { "id": "star_checkinlogin", "name": "网址", "val": "", "placeholder": "请填写，例如：https://example.com/auth/login", "type": "textarea", "desc": "请依次填入网址，以中文逗号分隔" },
+      { "id": "star_checkinemail", "name": "邮箱", "val": "", "placeholder": "请填写，例如：example@v2bz.com", "type": "textarea", "desc": "请依次填入邮箱，以中文逗号分隔" },
+      { "id": "star_checkinpwd", "name": "密码", "val": "", "placeholder": "请填写，例如：password", "type": "textarea", "desc": "请依次填入密码，以中文逗号分隔" }
+    ],
+    "author": "@Neurogram, @evilbutcher",
+    "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/glados",
+    "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/glados_mini.png", "https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif"],
+    "script": "https://raw.githubusercontent.com/StarStar-Lab/Scripts/master/checkin_env.js"
+  }
   ]
 }
