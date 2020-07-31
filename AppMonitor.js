@@ -18,7 +18,8 @@ if (
   var area = $.getdata("getRegion");
   region = area.split("，");
 } else {
-  $.msg("App版本及价格监控", "", "请在 BoxJs 检查填写是否正确", "http://boxjs.com");
+  region="us"&&
+  $.msg("App版本及价格监控", "", "默认区域为US", "请在http://boxjs.com中修改");
 }
 
 /*app版本及价格监控(来自t.me/QuanXApp群友分享)
