@@ -31,6 +31,32 @@
     "repo": "https://raw.githubusercontent.com/StarStar-Lab/Script",
     "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/glados_mini.png", "https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif"],
     "script": "https://raw.githubusercontent.com/StarStar-Lab/Scripts/master/checkin_env.js"
-  }
+  },
+
+    {
+      "id": "txnews2",
+      "name": "腾讯新闻2",
+      "keys": ["sy_signurl_txnews2", "sy_cookie_txnews2","video_txnews2"],
+      "author": "@sunert",
+      "settings": [
+        {
+          "id": "notifynum",
+          "name": "通知频率",
+          "val": 4,
+          "type": "number",
+          "desc": "视频红包间隔通知开为1，常关为0(默认4次)"
+        },
+        {
+          "id": "logsturn",
+          "name": "调试日志",
+          "val": false,
+          "type": "boolean"
+        }
+      ],
+       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews2.js",
+       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"],
+       "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js"
+    }
+
   ]
 }
