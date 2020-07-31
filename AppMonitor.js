@@ -16,7 +16,7 @@ if (
   $.getdata("getRegion") != ""
 ) {
   var area = $.getdata("getRegion");
-  region = area.split("，");
+//  region = area.split("，");
 } else {
   region="us"&&
   $.msg("App版本及价格监控", "", "默认区域设置为US");
@@ -31,7 +31,7 @@ app可单独设置区域，未单独设置区域，则采用reg默认区域
 console.log("APP监控运行");
 for (var i in accounts) {
 let apps=appid;//app跟踪id
-let reg=region[i];//默认区域：美国us 中国cn 香港hk
+let reg=area;//默认区域：美国us 中国cn 香港hk
 let notifys=[];
 format_apps(apps);
 function format_apps(x) {
