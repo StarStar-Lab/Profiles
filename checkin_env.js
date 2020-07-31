@@ -28,40 +28,40 @@ BoxJs订阅：https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/
 const $ = new Env("机场签到");
 
 if (
-  $.getdata("evil_checkintitle") != undefined &&
-  $.getdata("evil_checkintitle") != ""
+  $.getdata("star_checkintitle") != undefined &&
+  $.getdata("star_checkintitle") != ""
 ) {
-  var acc = $.getdata("evil_checkintitle");
+  var acc = $.getdata("star_checkintitle");
   accounts = acc.split("，");
 } else {
   $.msg("机场签到", "", "请在 BoxJs 检查填写是否正确", "https://8.8.8.8/home");
 }
 
 if (
-  $.getdata("evil_checkinlogin") != undefined &&
-  $.getdata("evil_checkinlogin") != ""
+  $.getdata("star_checkinlogin") != undefined &&
+  $.getdata("star_checkinlogin") != ""
 ) {
-  var ur = $.getdata("evil_checkinlogin");
+  var ur = $.getdata("star_checkinlogin");
   urls = ur.split("，");
 } else {
   $.msg("机场签到", "", "请在 BoxJs 检查填写是否正确", "https://8.8.8.8/home");
 }
 
 if (
-  $.getdata("evil_checkinemail") != undefined &&
-  $.getdata("evil_checkinemail") != ""
+  $.getdata("star_checkinemail") != undefined &&
+  $.getdata("star_checkinemail") != ""
 ) {
-  var ema = $.getdata("evil_checkinemail");
+  var ema = $.getdata("star_checkinemail");
   emails = ema.split("，");
 } else {
   $.msg("机场签到", "", "请在 BoxJs 检查填写是否正确", "https://8.8.8.8/home");
 }
 
 if (
-  $.getdata("evil_checkinpwd") != undefined &&
-  $.getdata("evil_checkinpwd") != ""
+  $.getdata("star_checkinpwd") != undefined &&
+  $.getdata("star_checkinpwd") != ""
 ) {
-  var pwd = $.getdata("evil_checkinpwd");
+  var pwd = $.getdata("star_checkinpwd");
   passwords = pwd.split("，");
 } else {
   $.msg("机场签到", "", "请在 BoxJs 检查填写是否正确", "https://8.8.8.8/home");
