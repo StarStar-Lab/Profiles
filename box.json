@@ -15,9 +15,7 @@
           "name": "app跟踪id",
           "val": " ",
           "type": "textarea",
-         	"placeholder": "app可单独设置区域，未单独设置区域，则采用reg默认区域, ["1443988620:hk","1443988620/us","1443988620-uk","1443988620_jp","1443988620 au"]",
-          "autoGrow": true,
-          "rows": 5,
+         	"placeholder": " ",
           "desc": "app跟踪id"
         },
         {
