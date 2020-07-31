@@ -19,7 +19,7 @@ if (
   region = area.split("，");
 } else {
   region="us"&&
-  $.msg("App版本及价格监控", "", "默认区域为US", "请在http://boxjs.com中修改");
+  $.msg("App版本及价格监控", "", "默认区域设置为US");
 }
 
 /*app版本及价格监控(来自t.me/QuanXApp群友分享)
