@@ -14,7 +14,7 @@
       "icons": ["https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png", "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"]
     },
     {
-    "id": "checkin",
+    "id": "checkin2",
     "name": "机场签到2",
     "descs_html": [
         "多个机场使用请用<font class=\"error--text\">中文逗号</font>分隔，顺序需要对应。",
@@ -28,7 +28,7 @@
       { "id": "star_checkinpwd", "name": "密码", "val": "", "placeholder": "请填写，例如：password", "type": "textarea", "desc": "请依次填入密码，以中文逗号分隔" }
     ],
     "author": "@Neurogram, @evilbutcher",
-    "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/glados",
+    "repo": "https://raw.githubusercontent.com/StarStar-Lab/Script",
     "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/glados_mini.png", "https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif"],
     "script": "https://raw.githubusercontent.com/StarStar-Lab/Scripts/master/checkin_env.js"
   }
