@@ -12,7 +12,7 @@
       "author": "@baranwang",
       "repo": "https://github.com/baranwang/quantumult-x-wechat-finance",
       "icons": ["https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png", "https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance.png"]
-      "script": "https://github.com/baranwang/quantumult-x-wechat-finance/blob/master/wechat_finance_guess.js"
+        "script":"https://raw.githubusercontent.com/baranwang/quantumult-x-wechat-finance/master/wechat_finance_guess.js"
     },
     {
     "id": "checkin2",
@@ -65,7 +65,7 @@
       "author": "@红鲤鱼与绿鲤鱼与驴",
       "repo": "https://github.com/nzw9314/QuantumultX/tree/master/Task",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"]
-      "script": "https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/Tengxunnews.js"
+        "script":"https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/Tengxunnews.js"
 }
   ]
 }
