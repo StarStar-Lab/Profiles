@@ -55,15 +55,6 @@
        "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews2.js",
        "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"],
        "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js"
-    },
-{
-      "id": "CSDN",
-      "name": "CSDN",
-      "keys": ["chavy_tokenurl_csdn"],
-      "author": "@红鲤鱼与绿鲤鱼与驴", 
-      "repo": "https://github.com/nzw9314/QuantumultX/tree/master/Task",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png", "https://raw.githubusercontent.com/Orz-3/task/master/txnews.png"],
-      "script": "https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/Tengxunnews.js"
-}
+    }
   ]
 }
