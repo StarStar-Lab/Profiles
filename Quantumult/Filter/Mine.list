@@ -1,0 +1,16 @@
+# > Special
+DOMAIN-SUFFIX,alphacoders.com,DIRECT
+# > 🍟
+DOMAIN-SUFFIX,ssrcloud.com,DIRECT
+# > emby-prpr
+# DOMAIN,emby.prprcloud.com,PROXY
+# IP-CIDR,51.79.167.36/32,PROXY,no-resolve
+# > emby-paoche
+DOMAIN,emby.cjpc.xyz,AGA
+# IP-CIDR,104.149.196.242/32,US,no-resolve
+DOMAIN,emby.paoche.ooo,JP
+# > emby-nyancat
+DOMAIN,emby.nyancat.net,Cat
+# > emby-otaku
+DOMAIN,emby.otakudrive.life,PROXY
+IP-CIDR,42.2.117.204/32,PROXY,no-resolve
