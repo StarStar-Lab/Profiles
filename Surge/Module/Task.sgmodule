@@ -36,7 +36,7 @@ cron "49 0 * * *" script-path= https://raw.githubusercontent.com/iisams/Scripts/
 cron "1 8,12,17 * * *" script-path= https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js, tag=叮咚农场 
 cron "0 7,23 * * *" script-path= https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean.js, tag=欧可林 
 # cron "4 7,23 * * *" script-path= https://raw.githubusercontent.com/zZPiglet/Task/master/Oclean/Oclean_mini.js, tag=欧可林商城 
-# cron "45 23 * * *" script-path= https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js, tag=flow, 
+# cron "45 23 * * *" script-path= https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js, tag=flow
 cron "50 0 * * *" script-path= https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/glados.js, tag=GLaDOS, 
 # cron "52 23 * * *" script-path= https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js, tag=机场签到cookie版, 
 # cron "55 23 * * *" script-path= https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到 
