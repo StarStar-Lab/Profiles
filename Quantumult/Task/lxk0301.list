@@ -13,3 +13,7 @@
 10 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js, tag=进店领豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=false
 1 1 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=京东全民开红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=false
 5 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=false
+10 * * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_dreamFactory.js, tag=京喜工厂, enabled=true
+10 * * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdfactory.js, tag=东东工厂, enabled=true
+10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_syj.js, tag=十元街, enabled=true
+0 0,9,11,13,15,17,19,20,21,23 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js, tag=直播红包雨, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true
