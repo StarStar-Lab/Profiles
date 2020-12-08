@@ -1,3 +1,5 @@
+# > yasd
+DOMAIN,yasd.nerdynerd.org,DIRECT
 # > alphacoder
 DOMAIN-SUFFIX,alphacoders.com,DIRECT
 # > 🍟
@@ -13,3 +15,4 @@ DOMAIN,emby.nyancat.net,Cat
 DOMAIN,emby.otakudrive.life,Cat
 # > emby-public
 DOMAIN,pub1cf.emby.wtf,Cat
+
