@@ -1,0 +1,10 @@
+Auto`url-test`(?i:香港|HK|Hong.*?Kong)(?!.*(?:iplc|iepl)).*`http://www.gstatic.com/generate_204`600
+Apple`select`[]🔰 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
+Guard`select`[]🛑 全球拦截`[]🎯 全球直连`[]🔰 节点选择
+Streaming`select`[]🔰 节点选择`[]♻️ 自动选择`[]🎯 全球直连`.*
+StreamingSE`select`[]🎯 全球直连`(HGC|HKBN|PCCW|HKT|深台|彰化|新北|台|hk|港|tw)`[]🔰 节点选择
+YouTube`select`[]🎯 全球直连`[]🔰 节点选择`.*
+Telegram`select`[]🔰 节点选择`[]🎯 全球直连`.*
+Final`select`[]Proxies`[]DIRECT
+PROXY`select`[]♻️ 自动选择`[]🎯 全球直连`.*
+HK`url-test`(?i:香港|HK|Hong.*?Kong).*(NF|IP)`http://www.gstatic.com/generate_204`600
