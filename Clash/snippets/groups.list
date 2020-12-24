@@ -1,16 +1,16 @@
-🚀 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
-🚀 手动切换`select`.*
-♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
-🔮 负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`300
-📲 电报消息`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
-📹 油管视频`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
-🌍 国外媒体`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇺🇲 美国节点`[]🚀 手动切换`[]DIRECT
-🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🚀 手动切换
-🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🚀 手动切换
-🛑 广告拦截`select`[]REJECT`[]DIRECT
-🍃 应用净化`select`[]REJECT`[]DIRECT
-🐟 漏网之鱼`select`[]🚀 节点选择`[]DIRECT
-🇭🇰 香港节点`url-test`(HK.*NF)`http://www.gstatic.com/generate_204`300
-🇺🇲 美国节点`url-test`(US.*NF)`http://www.gstatic.com/generate_204`300
-🇨🇳 台湾节点`url-test`(TW.*NF)`http://www.gstatic.com/generate_204`300
-🇸🇬 狮城节点`url-test`(SG.*NF)`http://www.gstatic.com/generate_204`300
+自动测试`url-test`.*`http://www.gstatic.com/generate_204`600
+;负载均衡`load-balance`.*`http://www.gstatic.com/generate_204`600
+;苹果服务`select`[]全球直连`[]策略选择`[]美国节点`[]香港节点`[]台湾节点`[]狮城节点
+电报信息`select`[]策略选择`[]自动测试`[]狮城节点`[]香港节点`[]台湾节点`[]美国节点
+油管视频`select`[]策略选择`[]自动测试`[]狮城节点`[]香港节点`[]台湾节点`[]美国节点
+国外媒体`select`[]策略选择`[]自动测试`[]香港节点`[]台湾节点`[]狮城节点`[]美国节点
+港台媒体`select`[]全球直连`[]香港节点`[]台湾节点`[]狮城节点
+广告拦截`select`[]全球拦截`[]全球直连
+最终策略`select`[]策略选择`[]全球直连
+代理选择`select`[]自动测试`[]负载均衡`[]香港节点`[]台湾节点`[]狮城节点`[]美国节点
+全球直连`select`[]DIRECT
+全球拦截`select`[]REJECT
+香港节点`url-test`(HK.*NF)`http://www.gstatic.com/generate_204`600
+台湾节点`url-test`(TW.*NF)`http://www.gstatic.com/generate_204`600
+狮城节点`url-test`(SG.*NF)`http://www.gstatic.com/generate_204`600
+美国节点`fallback`(US.*NF)`http://www.gstatic.com/generate_204`600
