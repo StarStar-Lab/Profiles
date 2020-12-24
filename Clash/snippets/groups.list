@@ -7,7 +7,7 @@
 港台媒体`select`[]全球直连`[]香港节点`[]台湾节点`[]狮城节点
 广告拦截`select`[]全球拦截`[]全球直连
 最终策略`select`[]策略选择`[]全球直连
-代理选择`select`[]自动测试`[]香港节点`[]台湾节点`[]狮城节点`[]美国节点
+策略选择`select`[]自动测试`[]香港节点`[]台湾节点`[]狮城节点`[]美国节点
 全球直连`select`[]DIRECT
 全球拦截`select`[]REJECT
 香港节点`url-test`(HK.*NF)`http://www.gstatic.com/generate_204`600
