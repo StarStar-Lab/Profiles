@@ -41,5 +41,9 @@ dyjsbstep = type=http-request,pattern=^https://(aweme-\w+|aweme).snssdk.com/luck
 # liwo (api.m.jd.com)
 liwo = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js,requires-body=true,tag=梨涡签到领现金Cookie
 
+# tenpay (*.tenpay.com)
+tenpaytask = type=http-request,pattern=https://(zqact|wzq).tenpay.com/cgi-bin/activity_sign_task.fcgi?,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
+tenpaywelware = type=http-request,pattern=https://wzq.tenpay.com/activity/page/welwareCenter/,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
+tenpaytools = type=http-request,pattern=https://wzq.tenpay.com/resources/vtools,script-path=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_cookie.js
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-\w+.snssdk.com, *.snssdk.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-\w+.snssdk.com, *.snssdk.com, *.tenpay.com
