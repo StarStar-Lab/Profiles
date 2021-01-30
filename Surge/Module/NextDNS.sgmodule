@@ -1,0 +1,6 @@
+#!name=NextDNS DoH
+#!desc=NextDNS DoH(屏蔽广告，跟踪器和恶意网站) 
+
+[General]
+dns-server = 114.114.114.114, 8.8.8.8
+doh-server = https://dns.nextdns.io/25edd9/Surge
