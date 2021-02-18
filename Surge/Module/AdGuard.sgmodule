@@ -1,6 +1,6 @@
 #!name=AdGuard
 #!desc=AdGuard DoH
 
-[general]
-dns-server = 114.114.114.114, 8.8.8.8
+[General]
+dns-server = 94.140.14.14, 94.140.15.15
 doh-server = https://dns.adguard.com/dns-query
