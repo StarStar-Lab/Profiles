@@ -48,5 +48,8 @@ tenpaytools = type=http-request,pattern=https://wzq.tenpay.com/resources/vtools,
 
 # muchong (*.xmcimg.com)
 muchong = type=http-request,pattern=^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\?action,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js,requires-body=false
+
+# 10000
+10000 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-\w+.snssdk.com, *.snssdk.com, *.tenpay.com, *.xmcimg.com
+hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-\w+.snssdk.com, *.snssdk.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn
