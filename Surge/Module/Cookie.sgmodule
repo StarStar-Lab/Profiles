@@ -23,9 +23,6 @@ BiliBili = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?,s
 # Youth (*.youth.cn, ios.baertt.com)
 youth_gain = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_(start|end)\.json,requires-body=1,script-path=https://github.com/Sunert/Scripts/raw/master/Task/youth_gain.js
 
-# 聚看点 (www.xiaodouzhuan.cn)
-聚看点 = type=http-request,pattern=https:\/\/www\.xiaodouzhuan\.cn\/jkd\/newMobileMenu\/infoMe\.action ,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jkd.js
-
 # 贴吧 (c.tieba.baidu.com)
 贴吧获取Cookie = type=http-request,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 
@@ -49,7 +46,7 @@ tenpaytools = type=http-request,pattern=https://wzq.tenpay.com/resources/vtools,
 # muchong (*.xmcimg.com)
 muchong = type=http-request,pattern=^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\?action,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js,requires-body=false
 
-# 10000
+# 10000 (wapside.189.cn:9001, alipaymini.189.cn, alipaymini.189.cn:8043)
 10000 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true
 dianx = type=http-request,pattern=https:\/\/alipaymini\.189\.cn:8043\/treasureBox\/queryUserActivityInfo,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.js,requires-body=true
 [MITM]
