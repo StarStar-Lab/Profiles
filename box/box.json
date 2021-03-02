@@ -14,4 +14,6 @@
       "repo": "https://github.com/elecV2/QuantumultX-Tools",
       "script": "https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.js",
       "icons": ["https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.png", "https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.png"]
-    },
+    }
+  ]
+}
