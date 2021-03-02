@@ -1,0 +1,17 @@
+  
+{
+  "id": "star.app.json",
+  "name": "star sub",
+  "author": "@StarStar-Lab",
+  "icon": "https://avatars.githubusercontent.com/u/35412541?s=400&v=4",
+  "repo": "https://github.com/StarStar-Lab/Profiles",
+  "apps": [
+    {
+      "id": "elecv2.dxbox",
+      "name": "dxbox",
+      "keys": ["dxbox_cookie", "dxbox_body"],
+      "author": "@elev2",
+      "repo": "https://github.com/elecV2/QuantumultX-Tools",
+      "script": "https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.js",
+      "icons": ["https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.png", "https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/dianx/dxbox.png"]
+    },
