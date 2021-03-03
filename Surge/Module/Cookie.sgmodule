@@ -30,10 +30,10 @@ youth_gain = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/bro
 jrttsign = type=http-request,pattern=^https:\/\/api3-normal-c-\w+\.snssdk\.com\/score_task\/v1\/task\/(sign_in|get_read_bonus),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jrtt.js,script-update-interval=0
 jrttfarm = type=http-request,pattern=^https:\/\/api3-normal-c-\w+\.snssdk\.com\/ttgame\/game_farm\/home_info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/jrtt.js,script-update-interval=0
 
-# 抖音 (*.snssdk.com)
-dyjsbsign = type=http-request,pattern=^https://(aweme-\w+|aweme).snssdk.com/luckycat/aweme/v1/task/sign_in/detail?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
-dyjsbread = type=http-request,pattern=^https://(aweme-\w+|aweme).snssdk.com/luckycat/aweme/v1/task/done/read?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
-dyjsbstep = type=http-request,pattern=^https://(aweme-\w+|aweme).snssdk.com/luckycat/aweme/v1/task/walk/step_submit?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
+# 抖音 (*.amemv.com)
+dyjsbsign = type=http-request,pattern=/luckycat/aweme/v1/task/sign_in/detail?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
+dyjsbread = type=http-request,pattern=/luckycat/aweme/v1/task/done/read?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
+dyjsbstep = type=http-request,pattern=/luckycat/aweme/v1/task/walk/step_submit?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js,script-update-interval=0
 
 # liwo (api.m.jd.com)
 liwo = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js,requires-body=true,tag=梨涡签到领现金Cookie
@@ -51,4 +51,4 @@ muchong = type=http-request,pattern=^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\
 电信天翼套餐 = type=http-request,pattern=https:\/\/mkt\.21cn\.com\/mkt\/api\/user\/queryActivityInfo\.do\?activityId=\d+,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js
 电信天翼套餐 = type=http-request,pattern=^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-\w+.snssdk.com, *.snssdk.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com 
+hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-\w+.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com 
