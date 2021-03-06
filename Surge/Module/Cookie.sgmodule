@@ -50,5 +50,8 @@ muchong = type=http-request,pattern=^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\
 10000 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true
 电信天翼套餐 = type=http-request,pattern=https:\/\/mkt\.21cn\.com\/mkt\/api\/user\/queryActivityInfo\.do\?activityId=\d+,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js
 电信天翼套餐 = type=http-request,pattern=^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomSky.js
+
+# baidu (haokan.baidu.com)
+baidu = type=http-request,pattern=https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-*.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com 
+hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-*.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, haokan.baidu.com 
