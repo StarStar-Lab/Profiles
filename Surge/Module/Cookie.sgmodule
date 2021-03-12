@@ -22,6 +22,10 @@ BiliBili = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?,s
 
 # Youth (*.youth.cn, ios.baertt.com)
 youth_gain = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/task\/browse_(start|end)\.json,requires-body=1,script-path=https://github.com/Sunert/Scripts/raw/master/Task/youth_gain.js
+youth = type=http-request,pattern=https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
+youth = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+youth = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
+youth = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 
 # 贴吧 (c.tieba.baidu.com)
 贴吧获取Cookie = type=http-request,pattern=https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
@@ -53,5 +57,8 @@ muchong = type=http-request,pattern=^https?:\/\/mapi.xmcimg.com\/bbs\/memcp.php\
 
 # baidu (haokan.baidu.com)
 baidu = type=http-request,pattern=https:\/\/haokan\.baidu\.com\/activity\/h5\/vault\?productid=\d,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js
+
+# txnews (api.inews.qq.com)
+txnews = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-*.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, haokan.baidu.com 
+hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-*.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, haokan.baidu.com, api.inews.qq.com 
