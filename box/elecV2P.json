@@ -1,8 +1,8 @@
 {
-  "name": "JD reward",     // 订阅名称
-  "surl": "https://raw.githubusercontent.com/StarStar-Lab/Profiles/master/box/elecV2P.json",  // 原始订阅链接，可省略
+  "name": "JD reward",     
+  "surl": "https://raw.githubusercontent.com/StarStar-Lab/Profiles/master/box/elecV2P.json",  
   "desc": "JD reward task subscription",
-  "list": [                           // 任务列表。任务格式参考上面的 task.list 部分
+  "list": [                          
     {
       "name": "supermarket",
       "type": "cron",
