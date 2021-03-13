@@ -62,6 +62,6 @@ baidu = type=http-request,pattern=https:\/\/haokan\.baidu\.com\/activity\/h5\/va
 txnews = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true
 
 # xmly_speed (m.ximalaya.com)
-xmly_speed = type=http-request,pattern=https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin,script-path=https://raw.githubusercontent.com/StarStar-Lab/Profiles/master/scripts/xmly_speed_cookie.js
+xmly_speed = type=http-request,pattern=https:\/\/m\.ximalaya\.com\/speed\/task-center\/account\/coin,script-path=https://raw.githubusercontent.com/StarStar-Lab/Scripts/master/xmly_speed_cookie.js
 [MITM]
 hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-*.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, haokan.baidu.com, api.inews.qq.com, m.ximalaya.com 
