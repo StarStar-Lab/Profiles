@@ -1,23 +1,30 @@
 {
-  "name": "JD reward",     
+  "name": "elecV2P sub",     
   "surl": "https://raw.githubusercontent.com/StarStar-Lab/Profiles/master/box/elecV2P.json",  
-  "desc": "JD reward task subscription",
+  "desc": "Task Subscription",
   "list": [                          
+     {
+      "name": "qtt",
+      "type": "cron",
+      "time": "0 5 5-20 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "qtt.js"
+      }
+    },
     {
       "name": "supermarket",
       "type": "cron",
       "time": "0 0 0 * * *",
-      "running": true,                
       "job": {
-        "type": "runjs",              
+        "type": "runjs",
         "target": "jd_blueCoin.js"
       }
     },
     {
-      "name": "car",            
+      "name": "car",
       "type": "cron",
       "time": "0 0 0 * * *",
-      "running": true,   
       "job": {
         "type": "runjs",
         "target": "jd_car_exchange.js"
@@ -27,7 +34,6 @@
       "name": "joy",
       "type": "cron",
       "time": "0 0 0-16/8 * * *",
-      "running": true,               
       "job": {
         "type": "runjs",
         "target": "joy_reward.js"
