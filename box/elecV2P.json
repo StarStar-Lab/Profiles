@@ -10,7 +10,7 @@
       "running": true,                
       "job": {
         "type": "runjs",              
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js"
+        "target": "jd_blueCoin.js"
       }
     },
     {
@@ -20,7 +20,7 @@
       "running": true,   
       "job": {
         "type": "runjs",
-        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js"
+        "target": "jd_car_exchange.js"
       }
     },
     {
@@ -30,7 +30,7 @@
       "running": true,               
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/StarStar-Lab/Docker/master/jds/joy_reward.js"
+        "target": "joy_reward.js"
       }
     }
   ]
