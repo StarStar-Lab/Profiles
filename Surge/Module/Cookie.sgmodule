@@ -10,10 +10,6 @@ caiyun = type=http-request, pattern=https:\/\/((weather-data\.apple)|(api.weathe
 weibo = type=http-request,pattern=https:\/\/api\.weibo\.cn\/\d\/page\/\w+\?gsid,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 weibo = type=http-request,pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
 
-# DiDi(as.xiaojukeji.com, common.diditaxi.com.cn)
-滴滴出行APPCookie = type=http-request,pattern=^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
-滴滴出行小程序Cookie = type=http-request,pattern=^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\?,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
-
 # JD daily bonus (api.m.jd.com)
 获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
@@ -69,4 +65,4 @@ DiDiAppCookie = type=http-request,pattern=^https:\/\/as\.xiaojukeji\.com\/ep\/as
 DiDiMiniAppCookie = type=http-request,pattern=^https:\/\/common\.diditaxi\.com\.cn\/webapp\/config\/sidebar\?,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
 
 [MITM]
-hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, as.xiaojukeji.com, common.diditaxi.com.cn, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-*.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, haokan.baidu.com, api.inews.qq.com, m.ximalaya.com, as.xiaojukeji.com, common.diditaxi.com.cn 
+hostname = %APPEND% weather-data.apple.com, api.weather.com, api.weibo.cn, pay.sc.weibo.com, api.m.jd.com, *.bilibili.com, *.youth.cn, ios.baertt.com, www.xiaodouzhuan.cn, c.tieba.baidu.com, api3-normal-c-*.snssdk.com, *.amemv.com, *.tenpay.com, *.xmcimg.com, wapside.189.cn:9001, e.189.cn, mkt.21cn.com, haokan.baidu.com, api.inews.qq.com, m.ximalaya.com, as.xiaojukeji.com, common.diditaxi.com.cn 
