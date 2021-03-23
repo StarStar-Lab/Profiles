@@ -3,6 +3,9 @@ DOMAIN,emby.paoche.ooo
 DOMAIN,emby.cjpc.xyz
 # > emby-prpr
 DOMAIN,emby.prprcloud.com
+IP-CIDR,38.94.108.207/32
+IP-CIDR,139.162.121.99/32
+IP-CIDT,13.230.44.104/32
 # > emby-otaku
 DOMAIN,emby.otakudrive.life
 DOMAIN,emby.neko.edu.rs
