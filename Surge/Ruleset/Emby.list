@@ -1,6 +1,5 @@
 # > emby-paoche
-DOMAIN,emby-aga.cjpc.xyz
-DOMAIN,emby.cjpc.xyz
+DOMAIN,emby.cjpc.cc
 # > emby-prpr
 DOMAIN,emby.prprcloud.com
 IP-CIDR,38.94.108.207/32
