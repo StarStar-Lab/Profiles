@@ -1,3 +1,8 @@
 # > Google Drive
 DOMAIN-SUFFIX,www.googleapis.com
-
+# > Infuse
+USER-AGENT,Infuse
+# > Emby
+DOMAIN,emby.zhuangzhuang.ga
+# > Plex
+DOMAIN-SUFFIX,plex.direct 
