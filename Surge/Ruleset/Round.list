@@ -1,6 +1,7 @@
 # > Infuse
 USER-AGENT,Infuse*
 # > Emby
+USER-AGENT,Emby*
 DOMAIN,emby.zhuangzhuang.ga
 # > Plex
 DOMAIN-SUFFIX,plex.direct 
