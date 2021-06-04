@@ -4,5 +4,3 @@ USER-AGENT,Infuse*
 DOMAIN,emby.zhuangzhuang.ga
 # > Plex
 DOMAIN-SUFFIX,plex.direct 
-# > Google Drive
-DOMAIN-SUFFIX,www.googleapis.com
