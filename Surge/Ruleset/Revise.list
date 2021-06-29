@@ -10,3 +10,5 @@ DOMAIN-KEYWORD,nextdns
 DOMAIN-SUFFIX,tawk.to
 # > jd
 DOMAIN,xinruimz-isv.isvjcloud.com
+# > ssh
+DEST-PORT,22
