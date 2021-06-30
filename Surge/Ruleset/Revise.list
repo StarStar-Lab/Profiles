@@ -1,7 +1,5 @@
 # > alphacoder
 DOMAIN-SUFFIX,alphacoders.com
-# > 🍟
-DOMAIN-SUFFIX,ssrcloud.com
 # > manmanbuy
 DOMAIN,apapia-history.manmanbuy.com
 # > nextdns
@@ -10,5 +8,3 @@ DOMAIN-KEYWORD,nextdns
 DOMAIN-SUFFIX,tawk.to
 # > jd
 DOMAIN,xinruimz-isv.isvjcloud.com
-# > ssh
-DEST-PORT,22
