@@ -1,8 +1,8 @@
 # > Infuse
-USER-AGENT,Infuse*
+# USER-AGENT,Infuse*
 # > Emby
-USER-AGENT,Emby*
-DOMAIN-KEYWORD,emby
+# USER-AGENT,Emby*
+# DOMAIN-KEYWORD,emby
 DEST-PORT,8096
 # > Plex
 DOMAIN-SUFFIX,plex.direct 
