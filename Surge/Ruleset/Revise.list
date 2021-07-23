@@ -5,8 +5,8 @@ DOMAIN-KEYWORD,nextdns
 # > tawk
 DOMAIN-SUFFIX,tawk.to
 # > emby-odyssey+
-DOMAIN,cf.odysseyplus.site
+# DOMAIN,cf.odysseyplus.site
 # > emby-pub
-DOMAIN,pub1cf.emby.wtf
+# DOMAIN,pub1cf.emby.wtf
 # > zhuangzhuang-cf
-DOMAIN-SUFFIX,zhuangzhuang.gq
+# DOMAIN-SUFFIX,zhuangzhuang.gq
