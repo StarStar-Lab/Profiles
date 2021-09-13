@@ -2,9 +2,9 @@
   "id": "zZPiglet.app.sub",
   "name": "zZPiglet 应用订阅",
   "author": "@zZPiglet",
-"icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
-   "repo": "https://github.com/zZPiglet/Task",
-   "apps": [
+  "icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
+  "repo": "https://github.com/zZPiglet/Task",
+  "apps": [
      {
        "id": "zZ.DiDi",
        "name": "滴滴出行",
@@ -76,12 +76,14 @@
            "rows": 1,
            "desc": "晚八点的优惠券编号组（如果有）。"
          }
-       ],
-       "author": "@zZPiglet",
+        ],
+       "author": "@ghgh",
        "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
        "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js",
        "icons": [
          "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png",
          "https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png"
        ]
-     }]}
+     }
+   ]
+ }
