@@ -1,7 +1,7 @@
  {
-  "id": "zZPiglet.app.sub",
-  "name": "zZPiglet 应用订阅",
-  "author": "@zZPiglet",
+  "id": "self.app.sub",
+  "name": "自用应用订阅",
+  "author": "@star",
   "icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
   "repo": "https://github.com/zZPiglet/Task",
   "apps": [
@@ -77,7 +77,7 @@
            "desc": "晚八点的优惠券编号组（如果有）。"
          }
         ],
-       "author": "@ghgh",
+       "author": "@star",
        "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
        "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js",
        "icons": [
