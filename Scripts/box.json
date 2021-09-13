@@ -2,8 +2,8 @@
   "id": "self.app.sub",
   "name": "自用应用订阅",
   "author": "@star",
-  "icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
-  "repo": "https://github.com/zZPiglet/Task",
+  "icon": "https://avatars.githubusercontent.com/u/35412541?s=60&v=4",
+  "repo": "https://github.com/StarStar-Lab/Profiles",
   "apps": [
      {
        "id": "zZ.DiDi",
@@ -78,8 +78,8 @@
          }
         ],
        "author": "@star",
-       "repo": "https://github.com/zZPiglet/Task/blob/master/DiDi/README.md",
-       "script": "https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js",
+       "repo": "https://github.com/StarStar/Task/Profiles",
+       "script": "https://raw.githubusercontent.com/StarStar-Lab/Profiles/DiDi_sleep.js",
        "icons": [
          "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/didi.png",
          "https://raw.githubusercontent.com/Orz-3/mini/master/Color/didi.png"
