@@ -1,4 +1,8 @@
-  "icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
+ {
+  "id": "zZPiglet.app.sub",
+  "name": "zZPiglet 应用订阅",
+  "author": "@zZPiglet",
+"icon": "https://raw.githubusercontent.com/zZPiglet/Task/master/img/fly.gif",
    "repo": "https://github.com/zZPiglet/Task",
    "apps": [
      {
