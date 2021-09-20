@@ -3,6 +3,10 @@
 # > Emby
 # USER-AGENT,Emby*
 # DOMAIN-KEYWORD,emby
+DOMAIN-SUFFIX,jmsooo.com
+DOMAIN-SUFFIX,odysseyplus.site
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,emby.cjpc.cc
 DEST-PORT,8096
 # > Plex
 DOMAIN-SUFFIX,plex.direct 
