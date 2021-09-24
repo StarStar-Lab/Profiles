@@ -6,7 +6,8 @@
 DOMAIN-SUFFIX,jmsooo.com
 DOMAIN-SUFFIX,odysseyplus.site
 DOMAIN-SUFFIX,emby.wtf
-DOMAIN-SUFFIX,emby.cjpc.cc
+DOMAIN,emby.cjpc.cc
+DOMAIN,emby.asukanana.com
 DEST-PORT,8096
 # > Plex
 DOMAIN-SUFFIX,plex.direct 
