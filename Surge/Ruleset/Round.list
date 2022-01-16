@@ -11,3 +11,4 @@ DOMAIN,emby.asukanana.com
 DEST-PORT,8096
 # > Plex
 DOMAIN-SUFFIX,plex.direct 
+DEST-PORT,32400
