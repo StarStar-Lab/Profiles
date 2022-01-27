@@ -1,7 +1,7 @@
 # > Infuse
-# USER-AGENT,Infuse*
+USER-AGENT,Infuse*
 # > Emby
-# USER-AGENT,Emby*
+USER-AGENT,Emby*
 # DOMAIN-KEYWORD,emby
 DOMAIN-SUFFIX,jmsooo.com
 DOMAIN-SUFFIX,odysseyplus.site
