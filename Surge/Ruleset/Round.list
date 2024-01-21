@@ -2,6 +2,7 @@
 USER-AGENT,Infuse*
 # > Emby
 USER-AGENT,Emby*
+DOMAIN-SUFFIX,st8.one
 # DOMAIN-KEYWORD,emby
 DEST-PORT,8096
 # > Plex
