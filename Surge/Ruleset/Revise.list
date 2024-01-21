@@ -4,9 +4,6 @@ DOMAIN-SUFFIX,alphacoders.com
 DOMAIN-KEYWORD,nextdns
 # > tawk
 DOMAIN-SUFFIX,tawk.to
-# > emby-odyssey+
-# DOMAIN,cf.odysseyplus.site
-# > emby-pub
-# DOMAIN,pub1cf.emby.wtf
-# > zhuangzhuang-cf
-# DOMAIN-SUFFIX,zhuangzhuang.gq
+# > BT
+PROCESS-NAME,qbittorrent-nox
+DEST-PORT,54321
