@@ -6,4 +6,4 @@ DOMAIN-KEYWORD,nextdns
 DOMAIN-SUFFIX,tawk.to
 # > BT
 PROCESS-NAME,qbittorrent-nox
-DEST-PORT,54321
+# DEST-PORT,54321
