@@ -6,7 +6,7 @@ DOMAIN-SUFFIX,st8.one
 DOMAIN-SUFFIX,alphatvapp.top
 DOMAIN-SUFFIX,odysseyplus.site
 DOMAIN-SUFFIX,emby.wtf
-# DOMAIN-KEYWORD,jmsooo
+DOMAIN-SUFFIX,jmsuper.com
 # DOMAIN-KEYWORD,emby
 DEST-PORT,8096
 # > Plex
