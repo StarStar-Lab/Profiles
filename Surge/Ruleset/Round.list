@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,dahh.vip
 # DOMAIN-KEYWORD,emby
 DEST-PORT,8096
 # > Plex
+DOMAIN-KEYWORD,funmedia
 DOMAIN-SUFFIX,funmedia.10101.io
 # DOMAIN-SUFFIX,plex.direct 
 # DOMAIN-SUFFIX,plex.tv
