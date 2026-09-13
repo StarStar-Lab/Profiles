@@ -70,7 +70,7 @@ proxy-groups:
     tolerance: 50
   - name: Lab
     include-all: true
-    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
+    filter: (?i)iplc|iepl|game|aia|ai
     type: select
 
 rule-providers:
