@@ -32,29 +32,30 @@ proxy-groups:
   - name: Netflix
     type: select
     proxies: ["SG","HK","TW","US"]  
-  - name: YouTube
-    type: select
-    proxies: ["Global","DIRECT"]
-
-  - name: Spotify
-    type: select
-    proxies: ["Global","DIRECT"]
-
-  - name: Bahamut
-    type: select
-    proxies: ["TW","HK","Global","DIRECT"]
+    - name: Spotify
+  type: select
+  proxies: ["DIRECT", "HK", "TW", "UN"]
 
   - name: Disney+
     type: select
-    proxies: ["US","JP","SG","Global","DIRECT"]
+    proxies: ["SG", "US"]
+
+  - name: YouTube
+    type: select
+    proxies: ["US", "HK", "SG", "JP"]
+
+  - name: Bahamut
+    type: select
+    proxies: ["TW", "HK"]
 
   - name: Streaming
     type: select
-    proxies: ["Global","HK","TW","JP","US","SG","UN"]
+    proxies: ["HK", "TW", "JP", "SG", "US", "UN"]
 
   - name: StreamingSE
     type: select
-    proxies: ["JP","TW","HK","SG","US","Global"]
+    proxies: ["DIRECT", "HK", "TW", "UN"]
+    
   - name: HK
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
