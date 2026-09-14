@@ -64,8 +64,8 @@ proxy-groups:
     tolerance: 50
   - name: UN
     include-all: true
-    filter: (?i)KR|Korea|KOR|首尔|韩|韓
-    type: url-test
+    exclude-filter: (?i)港|HK|Hong Kong|HongKong|台|TW|Taiwan|日|JP|Japan|美|US|USA|United States|新|SG|Singapore
+    type: select
     interval: 300
     tolerance: 50
   - name: Lab
