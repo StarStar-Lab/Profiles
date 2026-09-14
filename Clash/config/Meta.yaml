@@ -55,7 +55,10 @@ proxy-groups:
   - name: StreamingSE
     type: select
     proxies: ["DIRECT", "HK", "TW", "UN"]
-    
+   - name: Lab
+    include-all: true
+    filter: (?i)iplc|iepl|game|aia|ai|zz
+    type: select   
   - name: HK
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
@@ -92,10 +95,7 @@ proxy-groups:
     type: select
     interval: 300
     tolerance: 50
-  - name: Lab
-    include-all: true
-    filter: (?i)iplc|iepl|game|aia|ai
-    type: select
+
 rule-providers:
   BBC:
     type: http
