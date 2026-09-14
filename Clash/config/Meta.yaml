@@ -10,7 +10,7 @@ proxy-groups:
     proxies: ["HK","JP","SG","UN","Lab"]     
   - name: Emby
     type: select 
-    proxies: "Global","DIRECT"]    
+    proxies: ["Global","DIRECT"]    
   - name: Apple
     type: select 
     proxies: ["US","HK","DIRECT","Global"]
@@ -32,6 +32,29 @@ proxy-groups:
   - name: Netflix
     type: select
     proxies: ["SG","HK","TW","US"]  
+  - name: YouTube
+    type: select
+    proxies: ["Global","DIRECT"]
+
+  - name: Spotify
+    type: select
+    proxies: ["Global","DIRECT"]
+
+  - name: Bahamut
+    type: select
+    proxies: ["TW","HK","Global","DIRECT"]
+
+  - name: Disney+
+    type: select
+    proxies: ["US","JP","SG","Global","DIRECT"]
+
+  - name: Streaming
+    type: select
+    proxies: ["Global","HK","TW","JP","US","SG","UN"]
+
+  - name: StreamingSE
+    type: select
+    proxies: ["JP","TW","HK","SG","US","Global"]
   - name: HK
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
@@ -73,6 +96,85 @@ proxy-groups:
     filter: (?i)iplc|iepl|game|aia|ai
     type: select
 rule-providers:
+  BBC:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BBC/BBC.yaml
+    path: ./ruleset/BBC.yaml
+    interval: 86400
+
+  Steam:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
+    path: ./ruleset/Steam.yaml
+    interval: 86400
+
+  Xbox:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox/Xbox.yaml
+    path: ./ruleset/Xbox.yaml
+    interval: 86400
+
+  Nintendo:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.yaml
+    path: ./ruleset/Nintendo.yaml
+    interval: 86400
+
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download/Download.list
+    path: ./ruleset/Download.list
+    interval: 86400
+
+  Duolingo:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Duolingo/Duolingo.yaml
+    path: ./ruleset/Duolingo.yaml
+    interval: 86400
+
+  TVer:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVer/TVer.yaml
+    path: ./ruleset/TVer.yaml
+    interval: 86400
+
+  niconico:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico/Niconico.yaml
+    path: ./ruleset/Niconico.yaml
+    interval: 86400
+
+  Hulu:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hulu/Hulu.yaml
+    path: ./ruleset/Hulu.yaml
+    interval: 86400
+
+  DisneyPlus:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
+    path: ./ruleset/DisneyPlus.yaml
+    interval: 86400
   Emby:
     type: http
     behavior: classical
@@ -307,7 +409,7 @@ rules:
 
   - RULE-SET,YouTube,YouTube
 
-  - RULE-SET,Bahamut,TW
+  - RULE-SET,Bahamut,Bahamut
 
   - RULE-SET,TaiwanGood,TW
 
