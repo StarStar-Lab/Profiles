@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "st8.one",
+        "alphatvapp.top",
+        "odysseyplus.site",
+        "emby.wtf",
+        "jmsuper.com",
+        "dahh.vip"
+      ],
+      "domain_keyword": [
+        "funmedia"
+      ],
+      "port": [
+        8096,
+        32400
+      ]
+    }
+  ]
+}
