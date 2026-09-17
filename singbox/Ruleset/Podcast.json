@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "podcasts.apple.com"
+      ],
+      "domain": [
+        "bbcps.pdn.tritondigital.com"
+      ]
+    }
+  ]
+}
