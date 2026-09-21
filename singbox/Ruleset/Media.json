@@ -10,10 +10,14 @@
         "jmsuper.com",
         "dahh.vip",
         "funmedia.stream"
-      ],
+      ]
+    },
+    {
       "domain_keyword": [
         "funmedia"
-      ],
+      ]
+    },
+    {
       "port": [
         8096,
         32400
