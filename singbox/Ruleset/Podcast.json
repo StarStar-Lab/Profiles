@@ -16,7 +16,9 @@
         "vod-thumb-uk-live.akamaized.net",
         "vod-thumb-ww-live.akamaized.net",
         "vs-cmaf-push-uk-live.akamaized.net"
-      ],
+      ]
+    },
+    {
       "domain_suffix": [
         "bbc",
         "bbc.co",
@@ -33,7 +35,9 @@
         "bbcpersian.com",
         "bbcverticals.com",
         "bidi.net.uk"
-      ],
+      ]
+    },
+    {
       "domain_keyword": [
         "bbcfmt",
         "uk-live"
