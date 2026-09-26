@@ -1,10 +1,8 @@
-# > alphacoder
-DOMAIN-SUFFIX,alphacoders.com
 # > nextdns
 DOMAIN-KEYWORD,nextdns
-# > tawk
-DOMAIN-SUFFIX,tawk.to
 # > BT
 PROCESS-NAME,qbittorrent-nox
-# DEST-PORT,54321
-DOMAIN-SUFFIX,88-99-240-93.top
+# > SSH
+DEST-PORT,22
+DEST-PORT,22888
+
