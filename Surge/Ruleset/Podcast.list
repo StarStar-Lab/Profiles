@@ -1,3 +1,3 @@
 # > podcast
-DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN-SUFFIX,bbcps.pdn.tritondigital.com
+DOMAIN,podcasts.apple.com
+DOMAIN,bbcps.pdn.tritondigital.com
