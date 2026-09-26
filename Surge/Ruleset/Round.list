@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,odysseyplus.site
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,jmsuper.com
 DOMAIN-SUFFIX,dahh.vip
+DOMAIN-SUFFIX,funmedia.stream
 # DOMAIN-KEYWORD,emby
 DEST-PORT,8096
 # > Plex
